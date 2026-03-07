@@ -15,7 +15,7 @@ This Pilot License Agreement ("Agreement") is entered into as of
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ ("Effective Date") by and between:
 
 **Licensor**: Erny-Jay S. Mariquit / [Company Name TBD] ("Licensor")
-Email: ejmariquit@gmail.com
+Email: ejmariquit@tscwh.org
 
 **Licensee**: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ ("Licensee")
 Address: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -181,3 +181,4 @@ in your jurisdiction review and customize this agreement before use.*
 
 *Copyright © 2026 Erny-Jay S. Mariquit. All rights reserved.*
 <!-- TSCWH — CONFIDENTIAL TRADE SECRET — Erny-Jay S. Mariquit © 2026 — Unauthorized access prohibited. All rights reserved. -->
+
