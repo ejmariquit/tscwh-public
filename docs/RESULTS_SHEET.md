@@ -22,24 +22,26 @@
 
 | Metric | Value | Configuration |
 |--------|-------|---------------|
-| **Full 10-agent deliberation** | < 50 ms | Toroidal shared-memory ring |
-| **Per-action evaluation latency** | < 100 ms | With SentenceTransformer |
-| **Bitwise covenant check** | ~40 ns | Single CPU operation, 64-bit word |
-| **Memory footprint (core ring)** | 1 KiB | Shared-memory circular buffer |
-| **Embedding generation** | ~50 ms/sentence | SentenceTransformer (all-MiniLM-L6-v2) |
-| **Memory recall** | < 20 ms/query | ChromaDB vector similarity |
-| **Cold start (lightweight)** | < 3 seconds | SKIP_HEAVY=1 mode |
-| **Cold start (full model)** | ~30 seconds | Full SentenceTransformer + ChromaDB |
+| **Full 10-agent deliberation** | < 50 ms | Shared-memory architecture |
+| **Per-action evaluation latency** | < 100 ms | With semantic embedding |
+| **Covenant enforcement** | Sub-microsecond | Single CPU operation |
+| **Memory footprint (core)** | Minimal | Cache-resident data structure |
+| **Embedding generation** | ~50 ms/sentence | Lightweight embedding model |
+| **Memory recall** | < 20 ms/query | Vector similarity search |
+| **Cold start (lightweight)** | < 3 seconds | Minimal-load mode |
+| **Cold start (full)** | ~30 seconds | Full model + vector store |
 | **Sustained throughput** | 20+ evals/sec | Standard hardware |
 
 ## Cost Comparison
 
 | Metric | TSCWH | Multi-Agent LLM (10 agents) | Reduction |
 |--------|-------|---------------------------|-----------|
-| LLM calls / evaluation | **0** | 10+ | 100% |
-| Cost / evaluation | **~$0** | ~$0.10 | 94.4% |
-| Daily cost (10^6 evals) | **~$0** | ~$100,000 | 94.4% |
-| Annual cost (10^6 evals/day) | **~$0** | ~$36,500,000 | 94.4% |
+| LLM calls / safety evaluation | **0*** | 10+ | 100% |
+| Cost / safety evaluation | **~$0*** | ~$0.10 | 94.4% |
+| Daily cost (10^6 evals) | **~$0*** | ~$100,000 | 94.4% |
+| Annual cost (10^6 evals/day) | **~$0*** | ~$36,500,000 | 94.4% |
+
+*\*All safety-critical decisions are computed deterministically without LLM calls.*
 
 ## Safety Infrastructure Counts
 
@@ -51,13 +53,10 @@
 | Emergency shutdown levels | **5** (GREEN → YELLOW → ORANGE → RED → BLACK) |
 | Self-modification gates | **5** (read-only → human approval) |
 | Ethical dimensions evaluated | **5** |
-| Formal Z3 governance invariants | **5** (proven every cycle) |
+| Formal governance invariants | **Proven every cycle** |
 | Development phases completed | **27** |
-| Test suite size | **109 tests** |
 | Test pass rate | **100%** |
-| Architecture compliance | **7/7 hexagonal checks** |
-| Source files | **128 Python modules** |
-| Lines of code | **~49,000** |
+| Architecture compliance | **Full hexagonal compliance** |
 
 ## Hardware Requirements
 
@@ -70,7 +69,7 @@
 | Python | 3.11+ | 3.13 |
 | OS | Linux, macOS, Windows | Any |
 
-> *TSCWH runs entirely on CPU. No GPU, no cloud API keys, no external service dependencies for core evaluation.*
+> *TSCWH's safety evaluation runs entirely on CPU. No GPU required for core evaluation.*
 
 ---
 
