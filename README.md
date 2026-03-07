@@ -25,7 +25,7 @@ The full implementation, source code, and configuration details are maintained
 in a separate private repository and are **not** included here.
 
 To request access to a pilot, licensing information, or to execute an NDA,
-contact **ejmariquit@gmail.com**.
+contact **ejmariquit@tscwh.org**.
 
 ## Licensing & Legal
 
@@ -38,3 +38,4 @@ license agreements are provided under the `legal/` directory.
 *This public repository is intended solely as a landing page and does not
 contain any trade secrets, source code, or internal technical details.*
 <!-- TSCWH — CONFIDENTIAL TRADE SECRET — Erny-Jay S. Mariquit © 2026 — Unauthorized access prohibited. All rights reserved. -->
+
