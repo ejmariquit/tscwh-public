@@ -1,7 +1,7 @@
 # TSCWH — Research Summary
 
 <p align="center">
-  <strong>Zero-LLM Multi-Agent Toroidal Pipeline for AI Safety Evaluation</strong><br/>
+  <strong>Zero-LLM Multi-Agent Safety Evaluation Architecture</strong><br/>
   <em>Erny-Jay S. Mariquit &middot; Independent Researcher &middot; March 2026</em>
 </p>
 
@@ -9,31 +9,31 @@
 
 ## Abstract
 
-TSCWH is a multi-agent AI safety evaluation architecture that achieves zero-LLM-call deliberative consensus through a shared-memory toroidal state ring. Ten specialized software agents — arranged in adversarial pairs with intentional tension-by-design — evaluate arbitrary actions against five independent ethical dimensions using a single 1 KiB circular buffer mapped to L1 cache. The architecture eliminates the O(N) LLM cost scaling of existing multi-agent frameworks while maintaining adversarial breach detection.
+TSCWH is a multi-agent AI safety evaluation architecture that achieves zero-LLM-call deliberative consensus through a novel shared-memory topology. Ten specialized software agents — arranged in adversarial pairs with intentional tension-by-design — evaluate arbitrary actions against five independent ethical dimensions using a proprietary cache-resident data structure. The architecture eliminates the O(N) LLM cost scaling of existing multi-agent frameworks while maintaining adversarial breach detection.
 
-On a standard development machine, the full 10-agent deliberation completes in under 50 ms with zero API calls, representing a 94.4% cost reduction and 360x latency improvement over prior art.
+On a standard development machine, the full 10-agent safety evaluation completes in under 50 ms with zero API calls, representing a 94.4% cost reduction and 360x latency improvement over prior art.
 
 ## Five Novel Contributions
 
-### 1. Toroidal Shared-Memory State Ring
+### 1. Novel Shared-Memory Agent Topology
 
-A 1 KiB circular buffer in shared memory where 10 agents read and write with zero serialization overhead. The toroidal topology naturally enables closed-loop feedback without explicit wiring — agent N's output wraps to agent 0's input region.
+A proprietary shared-memory architecture where all agents communicate through a single cache-resident data structure with zero serialization overhead. The topology naturally enables closed-loop feedback without explicit wiring.
 
-### 2. Bitwise Covenant Enforcer
+### 2. Hardware-Speed Covenant Enforcement
 
-A 64-bit bitmask word encoding five ethical dimensions, enabling complete ethical evaluation in a single CPU operation (~40 nanoseconds). The five dimensions — Charity, Grace, Stewardship, Truth, Dignity — are encoded as 12-bit fixed-point values with 4 flag bits for system state.
+A novel encoding scheme enables complete ethical evaluation across all five dimensions in a single CPU operation at sub-microsecond speed. This eliminates the latency of traditional multi-pass evaluation.
 
 ### 3. Formal Runtime Verification
 
-Z3 SMT solver proofs of governance invariants execute on every evaluation cycle — not as unit tests, but as production checks. The system mathematically proves that no sequence of agent votes can produce a decision that violates its core guarantees.
+Formal mathematical proofs of governance invariants execute on every evaluation cycle — not as unit tests, but as production checks. The system mathematically proves that no sequence of agent decisions can produce an outcome that violates its core guarantees.
 
-### 4. Bayesian Truth Serum for Ethical Consensus
+### 4. Incentive-Compatible Ethical Consensus
 
-Adaptation of Prelec's (2004) Bayesian Truth Serum from survey incentive design to multi-agent safety deliberation. Each agent emits a probability distribution rather than a binary vote, and consensus is computed via Bayesian conjugate aggregation. This is more robust to adversarial manipulation than majority voting.
+A novel adaptation of information-theoretic consensus mechanisms for multi-agent safety deliberation. Each agent emits a probability distribution rather than a binary vote, and consensus is computed via Bayesian aggregation. This is more robust to adversarial manipulation than majority voting.
 
-### 5. Lyapunov Alignment Attractor
+### 5. Structural Alignment Attractor
 
-A potential function where V=0 at perfect alignment and dV/dt < 0 along all trajectories. This converts alignment from a rule-checking gate to a structural basin — misalignment is not forbidden but thermodynamically expensive.
+A mathematical stability mechanism that converts alignment from a rule-checking gate to a structural basin — misalignment is not forbidden but made structurally expensive. The system actively resists drift toward unsafe states.
 
 ## Comparison with Existing Approaches
 
@@ -44,17 +44,13 @@ A potential function where V=0 at perfect alignment and dV/dt < 0 along all traj
 | AutoGen | N agents | ~12s | ~$0.08 | No |
 | LangGraph | N agents | ~10s | ~$0.06 | No |
 | Constitutional AI | 1-2 | ~3s | ~$0.02 | No |
-| **TSCWH** | **0** | **< 50 ms** | **~$0** | **Yes (Z3, every cycle)** |
+| **TSCWH** | **0*** | **< 50 ms** | **~$0*** | **Yes (every cycle)** |
+
+*\*Per safety evaluation. All safety-critical decisions computed deterministically without LLM calls.*
 
 ## Additional Safety Mechanisms
 
-Beyond the five core contributions, the architecture includes:
-
-- **Exponential Mercy Decay** — Grace diminishes with repeated violations but never reaches zero
-- **Governed Self-Modification** — A 5-gate pipeline where the system can propose changes but cannot modify its own governance layer
-- **Stochastic Auditor** — CSPRNG-random shadow probes at unpredictable intervals
-- **Semantic Anchor Registry** — Cryptographic hash-locking of moral vocabulary to prevent semantic drift
-- **Sacrificial Compute** — Costly-signaling alignment proofs inspired by Zahavi's handicap principle
+Beyond the five core contributions, the architecture includes 23 additional safety mechanisms providing defense-in-depth, including governed self-modification, stochastic auditing, semantic anchoring, and graduated emergency response. Details are available under NDA.
 
 ## Selected References
 

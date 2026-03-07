@@ -10,9 +10,9 @@
 
 ## Executive Summary
 
-TSCWH (The System for Covenant-Weighted Heuristics) is a covenant enforcement framework for AI systems. It evaluates and validates every proposed AI action against ethical covenants in real-time, ensuring that machine behavior aligns with human-defined moral principles — with zero LLM calls, sub-50ms latency, and formal mathematical proofs of governance correctness.
+TSCWH (The System for Covenant-Weighted Heuristics) is a covenant enforcement framework for AI systems. It evaluates and validates every proposed AI action against ethical covenants in real-time, ensuring that machine behavior aligns with human-defined moral principles — with zero LLM calls for safety evaluation, sub-50ms latency, and formal mathematical proofs of governance correctness.
 
-The core innovation is the combination of multi-agent deliberation on a shared-memory toroidal state ring with formal verification. Rather than relying on static rule lists or post-hoc classifiers, TSCWH engages ten independent agents — arranged in adversarial pairs — to deliberate each action, then mathematically proves that the resulting decision satisfies all governance invariants.
+The core innovation is the combination of multi-agent deliberation on a proprietary shared-memory architecture with formal verification. Rather than relying on static rule lists or post-hoc classifiers, TSCWH engages ten independent agents — arranged in adversarial pairs — to deliberate each action, then mathematically proves that the resulting decision satisfies all governance invariants.
 
 ## The Challenge
 
@@ -29,10 +29,10 @@ The gap in the market is not "better guardrails" — it is **defense-in-depth wi
 ## TSCWH Approach
 
 - **Dialectical council:** Ten agents with intentional tension (Guardian vs. Predictor, Advocate vs. Prosecutor, Reasoner vs. Debate) ensure balanced decisions through adversarial deliberation
-- **Zero-LLM operation:** Deterministic evaluation functions replace LLM inference, eliminating API costs and latency
-- **Toroidal shared memory:** 1 KiB circular buffer enables zero-copy inter-agent communication
-- **Formal verification:** Z3 SMT solver proves governance invariants on every evaluation cycle
-- **Adaptive governance:** Bayesian consensus and Lyapunov attractors prevent drift and exploitation
+- **Zero-LLM evaluation:** Deterministic evaluation functions replace LLM inference, eliminating API costs and latency
+- **Proprietary shared memory:** A cache-resident data structure enables zero-overhead inter-agent communication
+- **Formal verification:** Mathematical proofs of governance invariants on every evaluation cycle
+- **Adaptive governance:** Probabilistic consensus and structural alignment attractors prevent drift and exploitation
 - **Human-in-the-loop:** SABBATH pause suspends operation when uncertainty exceeds safe thresholds
 - **ASI hardening:** Randomized audits, semantic anchoring, and sacrificial compute defend against advanced adversaries
 
@@ -40,11 +40,13 @@ The gap in the market is not "better guardrails" — it is **defense-in-depth wi
 
 | Metric | TSCWH | Prior Art | Improvement |
 |--------|-------|-----------|-------------|
-| LLM calls / evaluation | 0 | 10+ | 100% reduction |
+| LLM calls / evaluation | 0* | 10+ | 100% reduction |
 | Latency | < 50 ms | 1-18 seconds | 360x faster |
-| Cost / evaluation | ~$0 | ~$0.10 | 94.4% reduction |
+| Cost / evaluation | ~$0* | ~$0.10 | 94.4% reduction |
 | Formal verification | Every cycle | None | New capability |
-| Memory footprint | 1 KiB | ~100 MB/agent | 99.99% reduction |
+| Memory footprint | Minimal | ~100 MB/agent | Orders of magnitude reduction |
+
+*\*Per safety evaluation. All safety-critical decisions computed deterministically.*
 
 ## Capabilities
 

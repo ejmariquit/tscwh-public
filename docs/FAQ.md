@@ -6,11 +6,11 @@
 
 ### What is TSCWH?
 
-TSCWH (The System for Covenant-Weighted Heuristics) is a runtime AI safety framework that evaluates every AI action through a 10-agent dialectical council before it executes. It provides multi-dimensional ethical evaluation, formal mathematical verification, and adversarial defense — all in under 50 milliseconds with zero LLM calls.
+TSCWH (The System for Covenant-Weighted Heuristics) is a runtime AI safety framework that evaluates every AI action through a 10-agent dialectical council before it executes. It provides multi-dimensional ethical evaluation, formal mathematical verification, and adversarial defense — all in under 50 milliseconds with zero LLM calls for safety evaluation.
 
 ### What does "The System for Covenant-Weighted Heuristics" mean?
 
-The name is a reference to Daniel 2:34 — a stone "cut without hands" that grows to fill the earth. It reflects the project's vision: an alignment system that operates autonomously, without external dependencies, and scales without human-in-the-loop bottlenecks for every decision.
+The name reflects the core design: a system that weighs every decision against a covenant — a set of ethical principles that cannot be negotiated away. "Heuristics" captures the deterministic, efficient evaluation methods used in place of expensive LLM inference.
 
 ### Who created TSCWH?
 
@@ -22,11 +22,11 @@ TSCWH was conceived and directed by **Erny-Jay S. Mariquit**, an independent AI 
 
 ### How does TSCWH work without LLM calls?
 
-Traditional multi-agent systems (AutoGPT, CrewAI, AutoGen) require each agent to make an LLM inference call for reasoning. TSCWH replaces LLM-dependent reasoning with deterministic, domain-specific evaluation functions operating on a shared-memory toroidal state ring. Each agent is a specialized evaluator — not a general-purpose language model — so it computes its assessment in microseconds rather than seconds.
+Traditional multi-agent systems (AutoGPT, CrewAI, AutoGen) require each agent to make an LLM inference call for reasoning. TSCWH replaces LLM-dependent reasoning with deterministic, domain-specific evaluation functions operating on a proprietary shared-memory architecture. Each agent is a specialized evaluator — not a general-purpose language model — so it computes its assessment in microseconds rather than seconds.
 
-### What is the "toroidal state ring"?
+### What is the shared-memory architecture?
 
-A 1 KiB circular buffer in shared memory where all 10 agents read and write with zero serialization. The "toroidal" topology means the ring wraps around — the last agent's output feeds back to the first agent's input — creating natural closed-loop feedback without explicit wiring. It fits in L1 cache on modern CPUs.
+TSCWH uses a proprietary cache-resident data structure for inter-agent communication. All agents read and write to a shared memory region with minimal overhead, enabling closed-loop feedback without explicit wiring. Technical details are available under NDA.
 
 ### What are the five ethical dimensions?
 
@@ -46,15 +46,7 @@ When the system's confidence drops below a threshold or divergence among agents 
 
 ### What formal verification does TSCWH use?
 
-The Z3 SMT solver verifies five governance invariants on every evaluation cycle:
-
-1. Mercy never reaches zero (grace floor)
-2. High divergence triggers emergency pause
-3. Redline violations are never approved
-4. Low-confidence decisions are never approved
-5. Mathematical constraints are maintained
-
-These run as production checks, not unit tests — they are proven true on every cycle.
+A formal SMT solver verifies governance invariants on every evaluation cycle. These invariants ensure properties such as: grace never reaches zero, high uncertainty triggers emergency pause, and redline violations are never approved. These run as production checks, not unit tests — they are proven true on every cycle.
 
 ### What programming language is TSCWH written in?
 
@@ -80,7 +72,7 @@ Early adopters may qualify for no-cost access in exchange for structured feedbac
 
 ### Does TSCWH require a GPU?
 
-No. TSCWH runs entirely on CPU. No GPU, no cloud API keys, and no external service dependencies for core evaluation. Optional features (like SentenceTransformer embeddings) can use GPU acceleration but are not required.
+No. TSCWH runs entirely on CPU. No GPU, no cloud API keys, and no external service dependencies for core safety evaluation.
 
 ### What AI models does TSCWH work with?
 

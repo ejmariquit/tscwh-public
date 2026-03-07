@@ -33,7 +33,7 @@ TSCWH is a runtime covenant enforcement framework that sits between an LLM and i
 |-----------|--------|
 | **Multi-agent deliberation** | 10 agents with adversarial pairing (caution vs. proaction, mercy vs. accountability) |
 | **Zero LLM dependency** | Full 10-agent consensus with zero API calls |
-| **Formal verification** | Z3 SMT solver proofs on governance invariants — every cycle, not just tests |
+| **Formal verification** | Mathematical proofs of governance invariants — every cycle, not just tests |
 | **Evaluation latency** | < 50 ms for complete 10-agent deliberation |
 | **Cost per evaluation** | ~$0 (no LLM inference costs) |
 | **Safety layers** | 28 integrated defense mechanisms |
@@ -49,7 +49,7 @@ TSCWH is a runtime covenant enforcement framework that sits between an LLM and i
 | LLM calls per evaluation | **0** | 1-10+ | 100% reduction |
 | Evaluation latency | **< 50 ms** | 1-18 seconds | **360x faster** |
 | Cost per evaluation | **~$0** | $0.01-$0.10 | **94.4% reduction** |
-| Memory footprint | **1 KiB** | ~100 MB/agent | **99.99% reduction** |
+| Memory footprint | **Minimal** | ~100 MB/agent | **Orders of magnitude reduction** |
 | False positive rate | **< 2%** | 5-15% | — |
 | Self-correction accuracy | **98%** | N/A | — |
 
@@ -61,15 +61,15 @@ TSCWH is a runtime covenant enforcement framework that sits between an LLM and i
 
 TSCWH introduces five architectural innovations with no direct equivalent in existing AI safety literature:
 
-1. **Toroidal Shared-Memory State Ring** — A 1 KiB circular buffer enabling zero-copy inter-agent communication with natural closed-loop feedback
+1. **Novel Shared-Memory Agent Topology** — Proprietary cache-resident data structure enabling zero-overhead inter-agent communication with natural closed-loop feedback
 
-2. **Bitwise Covenant Enforcer** — Complete ethical evaluation across five dimensions in a single CPU operation (~40 nanoseconds)
+2. **Hardware-Speed Covenant Enforcement** — Complete ethical evaluation across five dimensions in a single CPU operation at sub-microsecond speed
 
-3. **Formal Runtime Verification** — Z3 SMT solver proofs executed on every evaluation cycle as production checks, not just test-time assertions
+3. **Formal Runtime Verification** — Mathematical proofs of governance invariants executed on every evaluation cycle as production checks, not just test-time assertions
 
-4. **Bayesian Truth Serum for Ethical Consensus** — Probabilistic multi-agent agreement that is incentive-compatible and resistant to strategic manipulation
+4. **Incentive-Compatible Ethical Consensus** — Probabilistic multi-agent agreement that is resistant to strategic manipulation
 
-5. **Lyapunov Alignment Attractor** — Makes misalignment structurally expensive rather than merely rule-forbidden
+5. **Structural Alignment Attractor** — Makes misalignment structurally expensive rather than merely rule-forbidden
 
 > *Each contribution is documented in a pending U.S. Provisional Patent Application (filed March 2026).*
 
@@ -88,23 +88,23 @@ TSCWH introduces five architectural innovations with no direct equivalent in exi
 │               TSCWH COVENANT ENFORCEMENT LAYER                   │
 │                                                                  │
 │  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐           │
-│  │Guardian │◄►│Predictor│  │Advocate │◄►│Prosecutor│           │
+│  │ Agent A │◄►│ Agent B │  │ Agent C │◄►│ Agent D │           │
 │  └────┬────┘  └────┬────┘  └────┬────┘  └────┬────┘           │
 │       │            │            │            │                   │
 │  ┌────▼────────────▼────────────▼────────────▼────┐             │
-│  │         TOROIDAL SHARED-MEMORY RING             │             │
-│  │     (1 KiB · zero-copy · zero-serialization)    │             │
+│  │         PROPRIETARY SHARED-MEMORY BUS             │             │
+│  │          (cache-resident · zero-overhead)           │             │
 │  └────┬────────────┬────────────┬────────────┬────┘             │
 │       │            │            │            │                   │
 │  ┌────▼────┐  ┌────▼────┐  ┌────▼────┐  ┌────▼────┐           │
-│  │Shepherd │  │ Scribe  │  │Reasoner │◄►│ Debate  │           │
+│  │ Agent E │  │ Agent F │  │ Agent G │◄►│ Agent H │           │
 │  └─────────┘  └─────────┘  └─────────┘  └─────────┘           │
 │                                                                  │
 │  ┌─────────┐  ┌──────────┐                                      │
-│  │Engineer │  │Strategist│     + 28 Safety Mechanisms            │
-│  └─────────┘  └──────────┘     + Z3 Formal Verification         │
-│                                + Bayesian Consensus              │
-│                                + Lyapunov Attractor              │
+│  │ Agent I │  │ Agent J │    + 28 Safety Mechanisms            │
+│  └─────────┘  └──────────┘    + Formal Verification             │
+│                                + Probabilistic Consensus         │
+│                                + Alignment Attractor              │
 └──────────────────────┬───────────────────────────────────────────┘
                        │
                        ▼
@@ -132,7 +132,7 @@ Three possible outcomes:
 | Self-modification gates | **5** (read-only → human approval) |
 | Ethical dimensions evaluated | **5** (Charity, Grace, Stewardship, Truth, Dignity) |
 | Development phases completed | **27** |
-| Test pass rate | **100%** (109 tests) |
+| Test pass rate | **100%** |
 
 ---
 

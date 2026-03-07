@@ -30,11 +30,13 @@
 | Feature | Competitors | TSCWH |
 |---------|------------|-------|
 | Architecture | Single classifier | 10-agent adversarial council |
-| LLM dependency | Required | Zero LLM calls |
-| Formal proofs | None | Z3 SMT every cycle |
-| Cost at scale | $100K+/day | ~$0 |
+| LLM dependency | Required | Zero LLM calls for safety evaluation* |
+| Formal proofs | None | Mathematical proofs every cycle |
+| Cost at scale | $100K+/day | ~$0 per safety evaluation* |
 | Latency | 1-18 seconds | < 50 ms |
 | Self-awareness | None | Runtime self-verification |
+
+*\*All safety-critical decisions computed deterministically without LLM calls.*
 
 ---
 
@@ -75,7 +77,6 @@
 | U.S. Copyright | Filed March 6, 2026 |
 | Trade secrets | Protected (source code, algorithms, parameters) |
 | Academic preprint | Published March 2026 |
-| ~49,000 lines of code | 128 Python modules across 27 development phases |
 
 The IP portfolio covers novel architectures and methods with no prior art in the AI safety domain.
 

@@ -9,13 +9,13 @@
 
 ## What It Does
 
-TSCWH validates every AI action before it executes. It operates as a middleware layer between an LLM and its end user, enforcing moral covenants through a 10-agent dialectical council with zero LLM dependency.
+TSCWH validates every AI action before it executes. It operates as a middleware layer between an LLM and its end user, enforcing moral covenants through a 10-agent dialectical council with zero LLM dependency for safety evaluation.
 
 ## Key Features
 
 - **Multi-agent deliberation:** Every decision is reviewed by ten specialized agents representing caution, mercy, accountability, foresight, and other perspectives — arranged in adversarial pairs to prevent any single viewpoint from dominating
-- **Zero LLM calls:** Complete 10-agent consensus in under 50 ms with no API costs
-- **Formal verification:** Z3 SMT solver proves governance invariants on every evaluation cycle
+- **Zero LLM calls for safety evaluation:** Complete 10-agent consensus in under 50 ms with no API costs
+- **Formal verification:** Mathematical proofs of governance invariants on every evaluation cycle
 - **28 safety layers:** Integrated defense-in-depth including cryptographic integrity, anomaly detection, graduated shutdown, and self-monitoring
 - **Proactive governance:** Predicts ethical drift before it occurs; pauses for human review (SABBATH state) when uncertain
 - **Governed self-modification:** Code updates gated through a 5-stage human-approved pipeline
@@ -26,8 +26,8 @@ TSCWH validates every AI action before it executes. It operates as a middleware 
 | Metric | Value |
 |--------|-------|
 | Full 10-agent deliberation | < 50 ms |
-| LLM calls per evaluation | 0 |
-| Cost per evaluation | ~$0 |
+| LLM calls per safety evaluation | 0 |
+| Cost per safety evaluation | ~$0 |
 | False positive rate | < 2% |
 | Self-correction accuracy | 98% |
 | Emergency shutdown levels | 5 (GREEN → BLACK) |
