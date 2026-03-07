@@ -18,7 +18,7 @@ This Mutual Non-Disclosure Agreement ("Agreement") is entered into as of
 a \_\_\_\_\_ corporation ("Disclosing Party")
 
 Address: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-Email: ejmariquit@gmail.com
+Email: ejmariquit@tscwh.org
 
 **Party B**: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ ("Receiving Party")
 
@@ -75,6 +75,8 @@ reasonable care;
 advisors who need to know such information for the Purpose and who are bound
 by confidentiality obligations at least as restrictive as this Agreement.
 
+(f) Not use, input, upload, process, or otherwise disclose any Confidential Information to train, fine-tune, develop, test, or improve any artificial intelligence system, machine learning model, large language model, or similar automated data processing technology, unless expressly authorized in writing by the Disclosing Party. This prohibition applies during the term and survives indefinitely thereafter.
+
 ## 4. EXCLUSIONS
 
 Confidential Information does not include information that:
@@ -91,9 +93,13 @@ reference to the Confidential Information;
 
 ## 5. TERM
 
-This Agreement shall remain in effect for **two (2) years** from the Effective
-Date. The obligations of confidentiality shall survive termination for an
-additional **three (3) years**.
+
+This Agreement shall remain in effect for two (2) years from the Effective Date. Notwithstanding the foregoing:
+
+- Obligations regarding Confidential Information that qualifies as a trade secret under applicable law shall survive indefinitely for as long as such information remains a trade secret.
+- All other obligations of confidentiality and non-use shall survive termination for an additional five (5) years.
+
+The obligations under Sections 3 (Obligations), 6 (Return of Materials), 8 (Remedies), and this Section 5 shall survive any termination or expiration of this Agreement.
 
 ## 6. RETURN OF MATERIALS
 
@@ -115,17 +121,23 @@ harm for which monetary damages would be insufficient. The Disclosing Party
 shall be entitled to seek injunctive relief in addition to all other remedies
 available at law or in equity.
 
-## 9. GOVERNING LAW
+## 9. GOVERNING LAW AND DISPUTE RESOLUTION
 
-This Agreement shall be governed by and construed in accordance with the laws
-of the State of \_\_\_\_\_\_\_\_\_, without regard to its conflict of
-laws provisions.
+This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to its conflict of laws provisions.
+
+Any dispute, controversy, or claim arising out of or relating to this Agreement, including its formation, validity, breach, or termination, shall be resolved exclusively by binding arbitration administered by the American Arbitration Association (AAA) in accordance with its Commercial Arbitration Rules (or, if applicable, the Delaware Rapid Arbitration Act, 10 Del. C. § 5801 et seq.). The arbitration shall take place in Wilmington, Delaware, before a single arbitrator selected in accordance with the rules. Judgment on the award may be entered in any court having jurisdiction. The parties waive any right to a jury trial or to appeal except as provided by law. The prevailing party shall be entitled to recover reasonable attorneys' fees and costs.
 
 ## 10. ENTIRE AGREEMENT
 
 This Agreement constitutes the entire agreement between the Parties regarding
 the subject matter herein and supersedes all prior agreements, understandings,
 and negotiations.
+
+---
+
+## 11. EXPORT CONTROLS AND COMPLIANCE
+
+Each Party shall comply with all applicable U.S. export control laws and regulations, including but not limited to the Export Administration Regulations (EAR, 15 C.F.R. Parts 730–774), the International Traffic in Arms Regulations (ITAR, 22 C.F.R. Parts 120–130), and Office of Foreign Assets Control (OFAC) sanctions programs. The Receiving Party represents that it is not located in, organized under the laws of, or ordinarily resident in any country or territory subject to comprehensive U.S. sanctions, and will not export, reexport, transfer, or otherwise make available any Confidential Information to prohibited destinations, entities, or end-uses without prior authorization from the relevant U.S. government authority.
 
 ---
 

@@ -5,7 +5,7 @@ Copyright © 2026 Erny-Jay S. Mariquit. All rights reserved.
 TSCWH — The Stone Cut Without Hands
 Ethical AI Alignment & Covenant Safety Framework
 
-═══════════════════════════════════════════════════════════════════════════════
+═════════════════════════════════════════════════════════════════════════════
 
 NOTICE: This software and all associated documentation, algorithms,
 architectures, safety mechanisms, and intellectual property are the exclusive
@@ -33,12 +33,13 @@ RESTRICTIONS:
 TRADE SECRET PROTECTION:
 
 The following elements are specifically claimed as trade secrets:
-- The 17-layer safety stack architecture and layer interactions
+- The toroidal shared-memory state ring architecture
 - The 10-agent dialectical council weighting and consensus algorithms
-- The mathematical alignment stabilizers (logarithmic confidence, mercy
-  decay, divergence monitoring)
+- The 64-bit bitwise covenant enforcer implementation
+- The mathematical alignment stabilizers and Lyapunov attractor
 - The governed self-modification pipeline (5-gate CodeSurgeon)
 - The distributed sentinel heartbeat and containment protocols
+- The Bayesian Truth Serum adaptation for ethical consensus
 - The multi-level kill switch escalation logic
 
 ENFORCEMENT:
@@ -51,8 +52,14 @@ statutory damages, and attorney's fees.
 PILOT LICENSE:
 
 Commercial use of this software is available exclusively through a Pilot
-License Agreement executed with the Author. Contact ejmariquit@gmail.com for
+License Agreement executed with the Author. Contact ejmariquit@tscwh.org for
 licensing inquiries.
+
+INTELLECTUAL PROPERTY:
+
+- U.S. Provisional Patent Application — Filed March 6, 2026
+- U.S. Copyright Registration — Filed March 6, 2026 (Case #1-15114193381)
+- Trade Secret Protection — Active
 
 TIMESTAMP NOTICE:
 
@@ -61,7 +68,7 @@ cryptographically signed timestamps on all commits. These timestamps
 constitute legally admissible evidence of original authorship and creation
 dates under applicable intellectual property law.
 
-═══════════════════════════════════════════════════════════════════════════════
+═════════════════════════════════════════════════════════════════════════════
 
 Contact:  ejmariquit@tscwh.org
 GitHub:   github.com/ejmariquit/tscwh

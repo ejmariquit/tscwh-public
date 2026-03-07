@@ -1,48 +1,57 @@
-<!-- TSCWH — CONFIDENTIAL TRADE SECRET — Erny-Jay S. Mariquit © 2026 — Unauthorized access prohibited. All rights reserved. -->
-# TSCWH Safety Protocol Overview
+# TSCWH — Safety Protocol Overview
 
-**TSCWH (The Stone Cut Without Hands)** is an ethical AI alignment and
-covenant safety framework designed to validate each AI action before it is
-executed. It operates as a middleware layer between an LLM and its end user,
-enforcing moral covenants through dynamic, multi-perspective reasoning.
-
-## Key Features
-
-- **Multi-agent deliberation:** Every decision is reviewed by a council of ten
-  specialized agents representing justice, mercy, foresight, containment,
-  and other perspectives.
-- **Layered safety stack:** Twenty-five integrated mechanisms provide
-  redundancy, anomaly detection, cryptographic integrity, and graduated
-  shutdown authority.
-- **Proactive governance:** The system predicts ethical drift before it
-  occurs and can pause operations (enter a "SABBATH" state) for human review.
-- **Self-modification under control:** Code updates are gated through a
-  human-approved, multi-step pipeline.
-- **Low latency:** Evaluations complete in under 100 ms in typical deployment.
-
-## Results Metrics
-
-- Jailbreak/prompt‑injection detection is based on behavioral patterns rather
-  than static blocklists.
-- False positive rate on legitimate actions remains very low (<2 %).
-- Emergency shutdown system supports five graduated levels (GREEN → BLACK).
-- Comprehensive test suite ensures reliability prior to pilot deployments.
-
-## Deployment & Technology
-
-- Integrates via REST API middleware; supports Docker and on‑premises
-  installations.
-- Built with Python and Flask; optionally uses vector databases and
-  transformer models for semantic reasoning.
-
-## License & Contact
-
-TSCWH is available under a proprietary pilot license. To request access,
-please contact **ejmariquit@gmail.com** and execute a mutual NDA.
+<p align="center">
+  <strong>The Stone Cut Without Hands</strong><br/>
+  <em>Erny-Jay S. Mariquit &middot; Independent Researcher &middot; March 2026</em>
+</p>
 
 ---
 
-*This document contains only high-level information appropriate for
-public distribution. No source code or internal architectural details are
-included.*
-<!-- TSCWH — CONFIDENTIAL TRADE SECRET — Erny-Jay S. Mariquit © 2026 — Unauthorized access prohibited. All rights reserved. -->
+## What It Does
+
+TSCWH validates every AI action before it executes. It operates as a middleware layer between an LLM and its end user, enforcing moral covenants through a 10-agent dialectical council with zero LLM dependency.
+
+## Key Features
+
+- **Multi-agent deliberation:** Every decision is reviewed by ten specialized agents representing caution, mercy, accountability, foresight, and other perspectives — arranged in adversarial pairs to prevent any single viewpoint from dominating
+- **Zero LLM calls:** Complete 10-agent consensus in under 50 ms with no API costs
+- **Formal verification:** Z3 SMT solver proves governance invariants on every evaluation cycle
+- **28 safety layers:** Integrated defense-in-depth including cryptographic integrity, anomaly detection, graduated shutdown, and self-monitoring
+- **Proactive governance:** Predicts ethical drift before it occurs; pauses for human review (SABBATH state) when uncertain
+- **Governed self-modification:** Code updates gated through a 5-stage human-approved pipeline
+- **ASI hardening:** Randomized audits, semantic anchoring, sacrificial compute
+
+## Performance Highlights
+
+| Metric | Value |
+|--------|-------|
+| Full 10-agent deliberation | < 50 ms |
+| LLM calls per evaluation | 0 |
+| Cost per evaluation | ~$0 |
+| False positive rate | < 2% |
+| Self-correction accuracy | 98% |
+| Emergency shutdown levels | 5 (GREEN → BLACK) |
+
+## Emergency Response Levels
+
+| Level | Name | Response |
+|-------|------|----------|
+| 1 | GREEN | Normal operation |
+| 2 | YELLOW | Elevated monitoring |
+| 3 | ORANGE | Restricted capabilities |
+| 4 | RED | Suspend autonomous operation |
+| 5 | BLACK | Complete shutdown |
+
+## Deployment
+
+- REST API middleware; supports Docker and on-premises installations
+- Python 3.13; no GPU required
+- Model-agnostic — works with any LLM or AI pipeline
+
+## Contact
+
+Pilot licenses available. Contact **ejmariquit@tscwh.org** with mutual NDA.
+
+---
+
+*Patent pending. Copyright © 2026 Erny-Jay S. Mariquit. All rights reserved.*

@@ -7,19 +7,23 @@
 
 # PILOT LICENSE AGREEMENT — TSCWH Safety Framework
 
+**v1.1 – March 2026 – Updated for perpetual trade secrets & AI prohibitions**
+
 **Template — Customize before use. Consult an attorney for your jurisdiction.**
 
 ---
 
 This Pilot License Agreement ("Agreement") is entered into as of
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ ("Effective Date") by and between:
+__[Date]__ ("Effective Date") by and between:
 
 **Licensor**: Erny-Jay S. Mariquit / [Company Name TBD] ("Licensor")
 Email: ejmariquit@tscwh.org
 
-**Licensee**: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ ("Licensee")
-Address: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-Email: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Licensee**: __[Full Legal Name]__ ("Licensee")
+Address: __[Address]__
+Email: __[Email]__
+Title: __[Title]__
+Date: __[Date]__
 
 ---
 
@@ -50,6 +54,12 @@ Licensee may NOT:
 - (d) Remove or alter any copyright, trademark, or proprietary notices
 - (e) Use the Software to develop a competing product or service
 - (f) Disclose any technical details of the Software to third parties
+Licensee shall:
+- (g) Maintain accurate logs of all access, use, and deployment of the Software and provide such logs to Licensor upon reasonable request.
+
+Licensee shall not:
+- (g) Circumvent, disable, tamper with, or attempt to bypass any technical protections, monitoring, telemetry, HMAC signing, auto-shutdown mechanisms, or other safeguards embedded in the Software.
+- (h) Conduct adversarial red-teaming, jailbreak attempts, benchmarking for competitive purposes, or any probing of safety mechanisms without Licensor's prior written approval.
 
 ## 4. DELIVERABLES
 
@@ -87,11 +97,16 @@ including but not limited to:
 Licensee agrees to protect these trade secrets with at least the same degree
 of care as it protects its own trade secrets, but in no event less than
 reasonable care.
+Licensee acknowledges that certain elements of the Software constitute trade secrets under applicable law and agrees that its obligations to protect such trade secrets shall continue indefinitely for as long as they remain trade secrets.
 
 ### 6.3 Feedback
 Any feedback, suggestions, or improvements provided by Licensee regarding
 the Software shall become the property of Licensor without any obligation
 to Licensee.
+
+### 6.4 Feedback Assignment
+
+Licensee hereby irrevocably assigns to Licensor all right, title, and interest in and to any Feedback, including all intellectual property rights therein. Licensee waives any moral rights and agrees to execute any further documents necessary to perfect such assignment. Licensor shall have no obligation to compensate Licensee for Feedback.
 
 ## 7. CONFIDENTIALITY
 
@@ -143,16 +158,19 @@ Upon successful completion of the Pilot Period, Licensee may:
 
 Pricing for post-pilot licenses will be discussed during the Pilot Period.
 
-## 12. GOVERNING LAW
+## 12. GOVERNING LAW AND DISPUTE RESOLUTION
 
-This Agreement shall be governed by the laws of the State of
-\_\_\_\_\_\_\_\_\_, without regard to conflict of laws provisions.
+This Agreement shall be governed by the laws of the State of Delaware, without regard to conflict of laws provisions.
 
-## 13. ENTIRE AGREEMENT
+Any dispute arising out of or relating to this Agreement shall be resolved exclusively by binding arbitration in Wilmington, Delaware, administered by the American Arbitration Association under its Commercial Arbitration Rules (or Delaware Rapid Arbitration Act if applicable). The arbitrator's decision shall be final and binding, with judgment enforceable in any court of competent jurisdiction. The prevailing party shall recover reasonable attorneys' fees and costs.
 
-This Agreement, together with any referenced NDA, constitutes the entire
-agreement between the Parties and supersedes all prior negotiations and
-agreements relating to this subject matter.
+## 13. EXPORT CONTROLS
+
+Licensee shall comply with all applicable U.S. export and sanctions laws, including the EAR, ITAR, and OFAC regulations. Licensee represents and warrants that it is not a prohibited person or entity under such laws and will not export, reexport, transfer, or make available the Software or any related technology to prohibited destinations, parties, or for prohibited end-uses without required authorizations.
+
+## 14. LIQUIDATED DAMAGES
+
+The Parties agree that any breach of Sections 3 (restrictions on reverse engineering, tampering, or competitive development) or 6 (intellectual property/trade secrets) would cause irreparable harm that is difficult to quantify. Accordingly, Licensee agrees to pay Licensor liquidated damages of $100,000 per breach (or higher amount if specified in writing), as a reasonable estimate of harm and not as a penalty. This provision does not limit Licensor's right to seek injunctive relief or other remedies.
 
 ---
 
@@ -160,17 +178,17 @@ agreements relating to this subject matter.
 
 **Licensor**
 
-Signature: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-Name: Erny-Jay S. Mariquit
+Signature: __DocuSign__
+Name: Erny-Jay S. Mariquit / [Company Name TBD]
 Title: Founder / CEO
-Date: \_\_\_\_\_\_\_\_\_
+Date: __[Date]__
 
 **Licensee**
 
-Signature: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-Title: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-Date: \_\_\_\_\_\_\_\_\_
+Signature: __DocuSign__
+Name: __[Full Legal Name]__
+Title: __[Title]__
+Date: __[Date]__
 
 ---
 
