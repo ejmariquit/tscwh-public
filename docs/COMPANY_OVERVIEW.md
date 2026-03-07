@@ -23,7 +23,7 @@
 
 ## The Product
 
-**TSCWH** (The Stone Cut Without Hands) is an AI safety framework that evaluates every AI action through a 10-agent dialectical council in real-time (< 50 ms). It achieves pattern-based jailbreak detection with < 2% false positives, includes ASI-hardened defenses, and provides formal mathematical verification of governance invariants.
+**TSCWH** (The System for Covenant-Weighted Heuristics) is an AI safety framework that evaluates every AI action through a 10-agent dialectical council in real-time (< 50 ms). It achieves pattern-based jailbreak detection with < 2% false positives, includes ASI-hardened defenses, and provides formal mathematical verification of governance invariants.
 
 ### What Makes It Different
 

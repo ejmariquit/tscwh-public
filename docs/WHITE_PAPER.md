@@ -1,7 +1,7 @@
 # TSCWH — White Paper (Public Summary)
 
 <p align="center">
-  <strong>The Stone Cut Without Hands</strong><br/>
+  <strong>The System for Covenant-Weighted Heuristics</strong><br/>
   <em>A Self-Governing AI Safety Framework</em><br/><br/>
   Erny-Jay S. Mariquit &middot; Independent Researcher &middot; March 2026
 </p>
@@ -10,7 +10,7 @@
 
 ## Executive Summary
 
-TSCWH (The Stone Cut Without Hands) is a covenant enforcement framework for AI systems. It evaluates and validates every proposed AI action against ethical covenants in real-time, ensuring that machine behavior aligns with human-defined moral principles — with zero LLM calls, sub-50ms latency, and formal mathematical proofs of governance correctness.
+TSCWH (The System for Covenant-Weighted Heuristics) is a covenant enforcement framework for AI systems. It evaluates and validates every proposed AI action against ethical covenants in real-time, ensuring that machine behavior aligns with human-defined moral principles — with zero LLM calls, sub-50ms latency, and formal mathematical proofs of governance correctness.
 
 The core innovation is the combination of multi-agent deliberation on a shared-memory toroidal state ring with formal verification. Rather than relying on static rule lists or post-hoc classifiers, TSCWH engages ten independent agents — arranged in adversarial pairs — to deliberate each action, then mathematically proves that the resulting decision satisfies all governance invariants.
 

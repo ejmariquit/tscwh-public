@@ -1,7 +1,7 @@
 # TSCWH — Safety Protocol Overview
 
 <p align="center">
-  <strong>The Stone Cut Without Hands</strong><br/>
+  <strong>The System for Covenant-Weighted Heuristics</strong><br/>
   <em>Erny-Jay S. Mariquit &middot; Independent Researcher &middot; March 2026</em>
 </p>
 

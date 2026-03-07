@@ -1,7 +1,7 @@
 # TSCWH — Technical Abstract
 
 <p align="center">
-  <strong>The Stone Cut Without Hands</strong><br/>
+  <strong>The System for Covenant-Weighted Heuristics</strong><br/>
   <em>Ethical AI Alignment & Covenant Safety Framework</em><br/><br/>
   Erny-Jay S. Mariquit &middot; Independent Researcher &middot; March 2026
 </p>

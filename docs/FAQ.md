@@ -6,9 +6,9 @@
 
 ### What is TSCWH?
 
-TSCWH (The Stone Cut Without Hands) is a runtime AI safety framework that evaluates every AI action through a 10-agent dialectical council before it executes. It provides multi-dimensional ethical evaluation, formal mathematical verification, and adversarial defense — all in under 50 milliseconds with zero LLM calls.
+TSCWH (The System for Covenant-Weighted Heuristics) is a runtime AI safety framework that evaluates every AI action through a 10-agent dialectical council before it executes. It provides multi-dimensional ethical evaluation, formal mathematical verification, and adversarial defense — all in under 50 milliseconds with zero LLM calls.
 
-### What does "The Stone Cut Without Hands" mean?
+### What does "The System for Covenant-Weighted Heuristics" mean?
 
 The name is a reference to Daniel 2:34 — a stone "cut without hands" that grows to fill the earth. It reflects the project's vision: an alignment system that operates autonomously, without external dependencies, and scales without human-in-the-loop bottlenecks for every decision.
 
