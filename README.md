@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>A Self-Governing AI Safety Framework</strong><br/>
-  <em>Zero-LLM Multi-Agent Deliberation &middot; Formal Verification &middot; 28 Defense Layers</em>
+  <em>Zero-LLM Safety Evaluation &middot; Formal Verification &middot; 28 Defense Layers</em>
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/copyright-%C2%A9%202026-green" alt="Copyright 2026"/>
   <img src="https://img.shields.io/badge/agents-10-orange" alt="10 Agents"/>
   <img src="https://img.shields.io/badge/safety%20layers-28-red" alt="28 Safety Layers"/>
-  <img src="https://img.shields.io/badge/LLM%20calls-zero-brightgreen" alt="Zero LLM Calls"/>
+  <img src="https://img.shields.io/badge/safety%20evals-zero%20LLM-brightgreen" alt="Zero LLM Safety Evaluations"/>
 </p>
 
 ---

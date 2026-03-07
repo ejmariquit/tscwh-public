@@ -42,12 +42,14 @@ TSCWH addresses all three deficits through a novel architecture:
 |---------|----------------------|-------|
 | Architecture | Single classifier | 10-agent dialectical council |
 | Decision type | Binary (allow/deny) | Probabilistic consensus with confidence |
-| LLM dependency | 1-10+ calls per eval | Zero LLM calls |
+| LLM dependency | 1-10+ calls per eval | Zero LLM calls for safety evaluation* |
 | Latency | 1-18 seconds | < 50 ms |
 | Self-monitoring | None | Z3 formal verification every cycle |
 | Adversarial defense | Static patterns | Randomized audits, non-deterministic boundaries |
 | Uncertainty handling | Silent failure | SABBATH pause for human review |
-| Cost at scale | $100K+/day at 10^6 evals | ~$0 |
+| Cost at scale | $100K+/day at 10^6 evals | ~$0 per safety evaluation* |
+
+*\*TSCWH's 10-agent deliberative council, formal verification, and all governance layers operate entirely without LLM calls. Safety-critical decisions are computed deterministically.*
 
 ## Why Now
 
