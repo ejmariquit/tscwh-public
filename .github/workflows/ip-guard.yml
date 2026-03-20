@@ -1,0 +1,26 @@
+name: IP Guard — Trade Secret Scan
+
+on:
+  push:
+    branches: ["master", "main"]
+    paths: ["**.md"]
+  pull_request:
+    branches: ["master", "main"]
+    paths: ["**.md"]
+
+jobs:
+  ip-guard:
+    name: Scan for trade secret leaks
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run IP guard (full repo scan)
+        run: python scripts/ip_guard.py --all
