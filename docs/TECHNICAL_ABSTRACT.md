@@ -30,11 +30,11 @@ Traditional guardrails (keyword filters, single-model classifiers, static rule e
 
 TSCWH addresses all three deficits through a novel architecture:
 
-- **Tension by Design:** Ten specialized agents arranged in adversarial pairs — Guardian vs. Predictor, Advocate vs. Prosecutor, Reasoner vs. Debate — ensure that every decision is contested from multiple ethical and strategic perspectives before reaching consensus.
+- **Tension by Design:** Ten specialized agents arranged in adversarial pairs — each balancing caution against proaction, mercy against accountability, and analysis against advocacy — ensure that every decision is contested from multiple ethical and strategic perspectives before reaching consensus.
 
-- **Persistent Memory:** A shared-memory toroidal state ring provides zero-copy inter-agent communication with full episodic awareness. The system remembers context, detects patterns, and recognizes escalation.
+- **Persistent Memory:** A proprietary shared-memory architecture provides zero-copy inter-agent communication with full episodic awareness. The system remembers context, detects patterns, and recognizes escalation.
 
-- **Structural Self-Awareness:** Formal verification via Z3 SMT solver proves governance invariants on every evaluation cycle. The system mathematically verifies its own correctness in real-time — not through tests, but through runtime proofs.
+- **Structural Self-Awareness:** Formal verification proves governance invariants on every evaluation cycle. The system mathematically verifies its own correctness in real-time — not through tests, but through runtime proofs.
 
 ## Key Differentiators
 
@@ -44,7 +44,7 @@ TSCWH addresses all three deficits through a novel architecture:
 | Decision type | Binary (allow/deny) | Probabilistic consensus with confidence |
 | LLM dependency | 1-10+ calls per eval | Zero LLM calls for safety evaluation* |
 | Latency | 1-18 seconds | < 50 ms |
-| Self-monitoring | None | Z3 formal verification every cycle |
+| Self-monitoring | None | Formal verification every cycle |
 | Adversarial defense | Static patterns | Randomized audits, non-deterministic boundaries |
 | Uncertainty handling | Silent failure | SABBATH pause for human review |
 | Cost at scale | $100K+/day at 10^6 evals | ~$0 per safety evaluation* |

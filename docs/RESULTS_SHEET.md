@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Benchmarks & Safety Metrics</strong><br/>
-  <em>v27.0.0 &middot; March 2026</em>
+  <em>v43.1.0 &middot; March 2026</em>
 </p>
 
 ---
@@ -52,11 +52,10 @@
 | Adversarial agent pairs | **4** |
 | Emergency shutdown levels | **5** (GREEN → YELLOW → ORANGE → RED → BLACK) |
 | Self-modification gates | **5** (read-only → human approval) |
-| Ethical dimensions evaluated | **5** |
+| Ethical dimensions evaluated | **8** (Charity, Grace, Stewardship, Truth, Dignity, Courage, Community, Creation Dignity) |
 | Formal governance invariants | **Proven every cycle** |
-| Development phases completed | **27** |
+| Development phases completed | **46** |
 | Test pass rate | **100%** |
-| Architecture compliance | **Full hexagonal compliance** |
 
 ## Hardware Requirements
 

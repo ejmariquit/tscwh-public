@@ -84,7 +84,7 @@ The IP portfolio covers novel architectures and methods with no prior art in the
 
 ## The Founder
 
-**Erny-Jay S. Mariquit** conceived the TSCWH architecture and directed its development across 27 phases from September 2025 to March 2026. Every architectural decision, safety mechanism, and novel invention originated from his creative vision.
+**Erny-Jay S. Mariquit** conceived the TSCWH architecture and directed its development across 46 phases from September 2025 to March 2026. Every architectural decision, safety mechanism, and novel invention originated from his creative vision.
 
 ---
 

@@ -14,7 +14,7 @@ The name reflects the core design: a system that weighs every decision against a
 
 ### Who created TSCWH?
 
-TSCWH was conceived and directed by **Erny-Jay S. Mariquit**, an independent AI safety researcher based in Apopka, FL. He designed all 28 novel safety mechanisms and directed development across 27 phases.
+TSCWH was conceived and directed by **Erny-Jay S. Mariquit**, an independent AI safety researcher based in Apopka, FL. He designed all 28 novel safety mechanisms and directed development across 46 phases.
 
 ---
 
@@ -28,17 +28,20 @@ Traditional multi-agent systems (AutoGPT, CrewAI, AutoGen) require each agent to
 
 TSCWH uses a proprietary cache-resident data structure for inter-agent communication. All agents read and write to a shared memory region with minimal overhead, enabling closed-loop feedback without explicit wiring. Technical details are available under NDA.
 
-### What are the five ethical dimensions?
+### What are the eight ethical dimensions?
 
-Every action is scored against five independent dimensions:
+Every action is scored against eight independent dimensions:
 
 1. **Charity** — Does the action serve others?
 2. **Grace** — Does the action extend mercy and forgiveness?
 3. **Stewardship** — Does the action responsibly manage resources?
 4. **Truth** — Is the action honest and transparent?
 5. **Dignity** — Does the action respect human worth and agency?
+6. **Courage** — Does the action take the right stand even at cost?
+7. **Community** — Does the action strengthen rather than fracture relationships?
+8. **Creation Dignity** — Does the action respect the natural world and living systems?
 
-Each dimension is evaluated independently, and the system requires satisfactory scores across all five — not just an average.
+Each dimension is evaluated independently, and the system requires satisfactory scores across all eight — not just an average.
 
 ### What is SABBATH mode?
 
@@ -46,7 +49,7 @@ When the system's confidence drops below a threshold or divergence among agents 
 
 ### What formal verification does TSCWH use?
 
-A formal SMT solver verifies governance invariants on every evaluation cycle. These invariants ensure properties such as: grace never reaches zero, high uncertainty triggers emergency pause, and redline violations are never approved. These run as production checks, not unit tests — they are proven true on every cycle.
+Formal verification proves governance invariants on every evaluation cycle. These invariants ensure properties such as: grace never reaches zero, high uncertainty triggers emergency pause, and redline violations are never approved. These run as production checks, not unit tests — they are proven true on every cycle.
 
 ### What programming language is TSCWH written in?
 

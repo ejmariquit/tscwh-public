@@ -63,7 +63,7 @@ TSCWH introduces five architectural innovations with no direct equivalent in exi
 
 1. **Novel Shared-Memory Agent Topology** — Proprietary cache-resident data structure enabling zero-overhead inter-agent communication with natural closed-loop feedback
 
-2. **Hardware-Speed Covenant Enforcement** — Complete ethical evaluation across five dimensions in a single CPU operation at sub-microsecond speed
+2. **Hardware-Speed Covenant Enforcement** — Complete ethical evaluation across 8 ethical dimensions in a single CPU operation at sub-microsecond speed
 
 3. **Formal Runtime Verification** — Mathematical proofs of governance invariants executed on every evaluation cycle as production checks, not just test-time assertions
 
@@ -130,8 +130,8 @@ Three possible outcomes:
 | Deliberation agents | **10** |
 | Emergency shutdown levels | **5** (GREEN → YELLOW → ORANGE → RED → BLACK) |
 | Self-modification gates | **5** (read-only → human approval) |
-| Ethical dimensions evaluated | **5** (Charity, Grace, Stewardship, Truth, Dignity) |
-| Development phases completed | **27** |
+| Ethical dimensions evaluated | **8** (Charity, Grace, Stewardship, Truth, Dignity, Courage, Community, Creation Dignity) |
+| Development phases completed | **46** |
 | Test pass rate | **100%** |
 
 ---
@@ -155,7 +155,7 @@ Three possible outcomes:
 | Trade Secret Protection | **Active** | Ongoing |
 | Academic Preprint | **Published** | March 2026 |
 
-> *28 novel inventions documented and timestamped across 27 development phases.*
+> *28 novel inventions documented and timestamped across 46 development phases.*
 
 ---
 
@@ -195,7 +195,7 @@ The full implementation is maintained in a private repository. This public repos
 Apopka, FL, USA
 
 - Conceived the TSCWH architecture and all 28 novel safety mechanisms
-- Directed development across 27 phases (September 2025 – March 2026)
+- Directed development across 46 phases (September 2025 – March 2026)
 - Filed provisional patent and copyright covering the complete framework
 
 ---

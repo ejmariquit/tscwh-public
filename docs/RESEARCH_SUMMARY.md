@@ -9,7 +9,7 @@
 
 ## Abstract
 
-TSCWH is a multi-agent AI safety evaluation architecture that achieves zero-LLM-call deliberative consensus through a novel shared-memory topology. Ten specialized software agents — arranged in adversarial pairs with intentional tension-by-design — evaluate arbitrary actions against five independent ethical dimensions using a proprietary cache-resident data structure. The architecture eliminates the O(N) LLM cost scaling of existing multi-agent frameworks while maintaining adversarial breach detection.
+TSCWH is a multi-agent AI safety evaluation architecture that achieves zero-LLM-call deliberative consensus through a novel shared-memory topology. Ten specialized software agents — arranged in adversarial pairs with intentional tension-by-design — evaluate arbitrary actions against 8 independently scored ethical dimensions using a proprietary cache-resident data structure. The architecture eliminates the O(N) LLM cost scaling of existing multi-agent frameworks while maintaining adversarial breach detection.
 
 On a standard development machine, the full 10-agent safety evaluation completes in under 50 ms with zero API calls, representing a 94.4% cost reduction and 360x latency improvement over prior art.
 
@@ -21,7 +21,7 @@ A proprietary shared-memory architecture where all agents communicate through a 
 
 ### 2. Hardware-Speed Covenant Enforcement
 
-A novel encoding scheme enables complete ethical evaluation across all five dimensions in a single CPU operation at sub-microsecond speed. This eliminates the latency of traditional multi-pass evaluation.
+A novel encoding scheme enables complete ethical evaluation across all 8 ethical dimensions in a single CPU operation at sub-microsecond speed. This eliminates the latency of traditional multi-pass evaluation.
 
 ### 3. Formal Runtime Verification
 
@@ -29,7 +29,7 @@ Formal mathematical proofs of governance invariants execute on every evaluation 
 
 ### 4. Incentive-Compatible Ethical Consensus
 
-A novel adaptation of information-theoretic consensus mechanisms for multi-agent safety deliberation. Each agent emits a probability distribution rather than a binary vote, and consensus is computed via Bayesian aggregation. This is more robust to adversarial manipulation than majority voting.
+A novel adaptation of information-theoretic consensus mechanisms for multi-agent safety deliberation. Each agent emits a probability distribution rather than a binary vote, and consensus is computed via probabilistic aggregation. This is more robust to adversarial manipulation than majority voting.
 
 ### 5. Structural Alignment Attractor
 
@@ -57,8 +57,6 @@ Beyond the five core contributions, the architecture includes 23 additional safe
 - Amodei et al. (2016). Concrete problems in AI safety.
 - Bai et al. (2022). Constitutional AI: Harmlessness from AI Feedback.
 - Christiano et al. (2017). Deep reinforcement learning from human preferences.
-- de Moura & Bjorner (2008). Z3: An efficient SMT solver.
-- Prelec (2004). A Bayesian truth serum for subjective data.
 - Russell (2019). Human Compatible.
 - Wu et al. (2023). AutoGen: Enabling next-gen LLM applications.
 

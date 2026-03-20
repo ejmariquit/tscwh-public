@@ -28,7 +28,7 @@ The gap in the market is not "better guardrails" — it is **defense-in-depth wi
 
 ## TSCWH Approach
 
-- **Dialectical council:** Ten agents with intentional tension (Guardian vs. Predictor, Advocate vs. Prosecutor, Reasoner vs. Debate) ensure balanced decisions through adversarial deliberation
+- **Dialectical council:** Ten agents with intentional tension — each balancing caution against proaction, mercy against accountability, and analysis against advocacy — ensure balanced decisions through adversarial deliberation
 - **Zero-LLM evaluation:** Deterministic evaluation functions replace LLM inference, eliminating API costs and latency
 - **Proprietary shared memory:** A cache-resident data structure enables zero-overhead inter-agent communication
 - **Formal verification:** Mathematical proofs of governance invariants on every evaluation cycle
