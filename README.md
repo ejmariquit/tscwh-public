@@ -6,6 +6,7 @@
 </p>
 
 <p align="center">
+  <a href="https://doi.org/10.5281/zenodo.18969708"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.18969708.svg" alt="DOI: 10.5281/zenodo.18969708"/></a>
   <img src="https://img.shields.io/badge/status-patent%20pending-blue" alt="Patent Pending"/>
   <img src="https://img.shields.io/badge/copyright-%C2%A9%202026-green" alt="Copyright 2026"/>
   <img src="https://img.shields.io/badge/agents-10-orange" alt="10 Agents"/>
@@ -153,7 +154,7 @@ Three possible outcomes:
 | U.S. Provisional Patent | **Filed** | March 6, 2026 |
 | U.S. Copyright Registration | **Filed** (Case #1-15114193381) | March 6, 2026 |
 | Trade Secret Protection | **Active** | Ongoing |
-| Academic Preprint | **Published** | March 2026 |
+| Academic Preprint | **Published** ([DOI: 10.5281/zenodo.18969708](https://doi.org/10.5281/zenodo.18969708)) | 2026 |
 
 > *28 novel inventions documented and timestamped across 46 development phases.*
 
