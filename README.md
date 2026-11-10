@@ -186,7 +186,7 @@ The full implementation is maintained in a private repository. This public repos
 
 > Early adopters may qualify for no-cost access in exchange for structured feedback.
 
-**Contact:** ejmariquit@tscwh.org
+**Contact:** ejmariquit@gmail.com
 
 ---
 
